@@ -40,14 +40,19 @@ ES6的新API很多，如果不部署ES6环境，均不能使用。
 
 ### let命令
 let的用法类似于var，但是所声明的变量，只在let命令所在的代码块内有效。
+
 转译前:
 ![Alt text](img/1.1.png)
+
 转译后:
 ![Alt text](img/1.2.png)
+
 转译前:
 ![Alt text](img/1.3.png)
+
 转译后:
 ![Alt text](img/1.4.png)
+
 IE7下依次点击3个li标签:
 ![Alt text](img/1.5.png)
 
