@@ -4,7 +4,6 @@
 
 ### ECMAScript 6简介
 ECMAScript 6（以下简称ES6）是JavaScript语言的下一代标准，已在2015年6月正式发布了。
-
 ES6的目标，是使得JavaScript语言可以用来编写大型的复杂的应用程序，成为企业级开发语言。
 
 ### ECMAScript和JavaScript的关系
@@ -29,12 +28,19 @@ ECMAScript是JavaScript语言的国际标准，JavaScript是ECMAScript的实现�
 有一部分ES6的新特性通过 [BabelJS] 转译后，可以在ie7上运行。
 而需要依赖ES5环境的新特性只能在ie9上运行，ie7/8需要部署ES5环境。
 因此我把ES6的新特性分为以下三类来进行介绍。
+
 纯净版的代码:
+
 ![Alt text](img/0.1.png)
+
 部署ES5环境的代码:
+
 ![Alt text](img/0.2.png)
+
 部署ES6环境的代码:
+
 ![Alt text](img/0.3.png)
+
 ES6的新API很多，如果不部署ES6环境，均不能使用。
 这次简介我会着重介绍新语法方面。
 
@@ -228,7 +234,9 @@ Chrome下运行结果:
 
 ### 参考链接
 BabelJS : http://babeljs.io/
+
 ECMAScript 6 入门 : http://es6.ruanyifeng.com/
+
 ES6的部署进度 : http://kangax.github.io/es5-compat-table/es6/
 
 ---
